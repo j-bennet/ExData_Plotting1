@@ -2,7 +2,7 @@
 
 source("read_data.R")
 
-# Histogram #1 on Global_active_power
+# Line chart #2 for Datetime and Global_active_power
 
 plot(data$Dt, data$Global_active_power,
      type = "l",
